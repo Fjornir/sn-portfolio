@@ -1,0 +1,26 @@
+@import "colors";
+
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &-item {
+    padding: 30px 20px;
+    font-weight: 600;
+    font-size: 16px;
+
+    &__link {
+      text-decoration: none;
+      color: $primary;
+
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}

@@ -3,7 +3,6 @@ function Footer() {
     return (
         <>
         <footer>
-            Foot
         </footer>
         </>
     )

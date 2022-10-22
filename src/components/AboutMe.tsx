@@ -1,9 +1,23 @@
+import "../style/aboutMe.scss";
 
 function AboutMe() {
-    return(
-        <>
-        </>
-    )
+  return (
+    <div className="about-container">
+      <div className="about-container__photo"></div>
+      <div className="about-container-info">
+        <h1 className="about-container-info__title">
+          Немного о себе
+        </h1>
+        <div className="about-container-info__text">
+          Занимаюсь версткой лендингов, промо, корпоративных веб-сайтов, с
+          использованием HTML5 и SCSS. Логику описываю при помощи Javascript на
+          фреймворке React. Моя цель - это создание качественного, понятного и
+          доступного продукта на рынке веб-разработки. Всегда открыт к изучению
+          чего то нового и интересного.
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default AboutMe
+export default AboutMe;

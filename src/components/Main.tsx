@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 import MyWorks from "./MyWorks";
 import Contacts from "./Contacts";
 import Footer from "./Footer";
+import '../style/mainStyle.scss'
 
 function Main() {
   return (
