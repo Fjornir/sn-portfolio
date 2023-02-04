@@ -1,3 +1,13 @@
+@import "properties";
+
 $primary: #c0c7cf;
 $secondary: #fcfdff;
-$background: #1C252C;
+$background: #001c34;
+$color1: #cc6c5c;
+$color2: #58a500b6;
+$gradient: conic-gradient(
+  from $from,
+  $color1,
+  $color2 $distance,
+  transparent $distance
+);

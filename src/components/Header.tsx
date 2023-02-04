@@ -1,4 +1,4 @@
-import '../style/headerStyle.scss'
+import "../style/headerStyle.scss";
 const navs = ["Обо мне", "Мои работы", "Контакты"];
 
 function Header() {
@@ -8,7 +8,9 @@ function Header() {
         <ul className="nav">
           {navs.map((item) => (
             <li key={item} className="nav-item">
-              <a href="#" className="nav-item__link">{item}</a>
+              <a href="#" className="nav-item__link">
+                {item}
+              </a>
             </li>
           ))}
         </ul>
