@@ -1,4 +1,4 @@
-import "../style/myWorks.scss"
+import "../style/myWorksStyle.scss"
 
 function MyWorks() {
     return(

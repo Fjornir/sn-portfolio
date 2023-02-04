@@ -1,4 +1,4 @@
-import "../style/aboutMe.scss";
+import "../style/aboutMeStyle.scss";
 
 function AboutMe() {
   return (
