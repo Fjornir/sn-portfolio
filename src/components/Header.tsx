@@ -3,7 +3,7 @@ const navs = ["Обо мне", "Мои работы", "Контакты"];
 
 function Header() {
   return (
-    <header>
+    <header className="page-item">
       <nav>
         <ul className="nav">
           {navs.map((item) => (

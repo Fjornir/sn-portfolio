@@ -7,13 +7,13 @@ import '../style/mainStyle.scss'
 
 function Main() {
   return (
-    <div className="container">
+    <main className="page">
       <Header></Header>
       <AboutMe></AboutMe>
       <MyWorks></MyWorks>
       <Contacts></Contacts>
       <Footer></Footer>
-    </div>
+    </main>
   );
 }
 
