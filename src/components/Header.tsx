@@ -1,4 +1,4 @@
-import "../style/headerStyle.scss";
+
 const navs = ["Обо мне", "Мои работы", "Контакты"];
 
 function Header() {

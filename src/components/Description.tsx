@@ -1,15 +1,13 @@
-import "../style/aboutMeStyle.scss";
-
-function AboutMe() {
+function Description() {
   return (
-    <div className="page-item about-container">
-      <figure className="about-container__photo">
+    <div className="description-container page-item ">
+      <figure className="description-container__photo">
       </figure>
-      <section className="about-container-info">
-        <h1 className="about-container-info__title">
+      <section className="description-container-info">
+        <h1 className="description-container-info__title">
           Привет! Я Junior Frontend Developer
         </h1>
-        <article className="about-container-info__text">
+        <article className="description-container-info__text">
           Меня зовут Никита, Я занимаюсь версткой лендингов, промо,
           корпоративных веб-сайтов, с использованием HTML5 и SCSS. Логику
           описываю при помощи Javascript(Typescript) на фреймворке React. Моя цель - это
@@ -21,4 +19,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default Description;

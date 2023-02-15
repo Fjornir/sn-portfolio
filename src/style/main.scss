@@ -1,5 +1,6 @@
 @import "colors";
-@import "reset";
+
+
 
 * {
   box-sizing: border-box;
@@ -17,6 +18,6 @@
 
   &-item {
     max-width: 1920px;
-    margin-bottom: 24px;
+    margin-bottom: 60px;
   }
 }

@@ -1,16 +1,16 @@
 import Header from "./Header";
-import AboutMe from "./AboutMe";
-import MyWorks from "./MyWorks";
+import Description from "./Description";
+import Works from "./Works";
 import Contacts from "./Contacts";
 import Footer from "./Footer";
-import '../style/mainStyle.scss'
+import '../style/index.scss'
 
 function Main() {
   return (
     <main className="page">
       <Header></Header>
-      <AboutMe></AboutMe>
-      <MyWorks></MyWorks>
+      <Description></Description>
+      <Works></Works>
       <Contacts></Contacts>
       <Footer></Footer>
     </main>
