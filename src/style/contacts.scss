@@ -1,0 +1,19 @@
+@import "colors";
+
+.contacts {
+  &__title {
+    font-weight: 400;
+    font-size: 34px;
+    color: $color1;
+  }
+  &-container {
+    display: flex;
+
+    &-item {
+        display: flex;
+    }
+    a {
+      color: white;
+    }
+  }
+}
