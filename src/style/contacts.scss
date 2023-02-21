@@ -1,17 +1,28 @@
 @import "colors";
 
 .contacts {
+  margin-bottom: 50px;
   &__title {
     font-weight: 400;
     font-size: 34px;
     color: $color1;
+    margin-bottom: 50px;
   }
   &-container {
     display: flex;
-
+    justify-content: space-between;
+    width: 500px;
     &-item {
-        display: flex;
+      display: flex;
+      align-items: center;
+
+      &__icon {
+        margin-left: 20px;
+        width: 40px;
+        height: 40px;
+      }
     }
+
     a {
       color: white;
     }
