@@ -5,11 +5,14 @@ import Contacts from "./Contacts";
 import '../style/index.scss';
 import Skills from "./Skills";
 import Language from "./Language";
+import { useState } from "react";
 
 function Main() {
+  //const {language, setLanguage} = useState("english")
+
   return (
     <main className="page">
-      <Language></Language>
+      <Language ></Language>
       <Header></Header>
       <Description></Description>
       <Works></Works>
