@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sn-portfolio/static/css/main.243b2d01.css",
+    "main.js": "/sn-portfolio/static/js/main.60958b48.js",
+    "static/media/myPhoto.png": "/sn-portfolio/static/media/myPhoto.c190b24f426a472f9500.png",
+    "static/media/Ex1.png": "/sn-portfolio/static/media/Ex1.21e4d2d8e49421122e05.png",
+    "static/media/react.svg": "/sn-portfolio/static/media/react.854aa3e11c4bc43c1d78d8348f98e409.svg",
+    "static/media/typescript.svg": "/sn-portfolio/static/media/typescript.39c308194fedf08d274b0c6497d37538.svg",
+    "static/media/docker.svg": "/sn-portfolio/static/media/docker.f32b37e9204ec162ce0d74e74a164e3e.svg",
+    "index.html": "/sn-portfolio/index.html",
+    "static/media/telegram.svg": "/sn-portfolio/static/media/telegram.9ca7add4b67bb0529e2e4f4252642daf.svg",
+    "static/media/javascript.svg": "/sn-portfolio/static/media/javascript.f3187e1acaf946bd9dd5663bf1434fd9.svg",
+    "static/media/mail.svg": "/sn-portfolio/static/media/mail.a00ccf3a9b57dd9304b52c4743800a51.svg",
+    "static/media/css.svg": "/sn-portfolio/static/media/css.694110acd283b105594ee9e990a0d823.svg",
+    "static/media/html5.svg": "/sn-portfolio/static/media/html5.4d2290c0529f4f744c7ee8d686573df8.svg",
+    "main.243b2d01.css.map": "/sn-portfolio/static/css/main.243b2d01.css.map",
+    "main.60958b48.js.map": "/sn-portfolio/static/js/main.60958b48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.243b2d01.css",
+    "static/js/main.60958b48.js"
+  ]
+}
