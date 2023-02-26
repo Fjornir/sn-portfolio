@@ -1,11 +1,12 @@
 const navs = ["Обо мне", "Мои работы", "Контакты"];
 
-function Header() {
+function Header({props}: { props: { navigation: string[] }; }) {  
+    
   return (
     <header className="page-item">
       <nav>
         <ul className="nav">
-          {navs.map((item) => (
+          {props.navigation.map((item) => (
             <li key={item} className="nav-item">
               <a href="#" className="nav-item__link">
                 {item}

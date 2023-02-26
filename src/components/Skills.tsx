@@ -5,10 +5,10 @@ import { ReactComponent as ReactImg } from "../images/skills/react.svg";
 import { ReactComponent as DockerImg } from "../images/skills/docker.svg";
 import { ReactComponent as TsImg } from "../images/skills/typescript.svg";
 
-function Skills() {
+function Skills({props}: { props: { title: string }; }) {
   return (
     <div className="page-item skills">
-      <h1 className="skills__title">Инструменты которые я использую</h1>
+      <h1 className="skills__title">{props.title}</h1>
       <ul className="skills-container">
         <li className="skills-container-img"><HtmlImg></HtmlImg></li>
         <li className="skills-container-img"><CssImg></CssImg></li>
