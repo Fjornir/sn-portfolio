@@ -1,0 +1,11 @@
+.language {
+    position: absolute;
+    top:0;
+    right: 0;
+  &__button {
+    width: 30px;
+    height: 10px;
+    border: red;
+    color: white;
+  }
+}

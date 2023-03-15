@@ -1,6 +1,7 @@
 {
     "header": {
-        "navigation":["Обо мне", "Мои работы", "Контакты"]
+        "navigation":[{"title":"Обо мне", "id":"#top"}, {"title":"Мои работы","id":"#works"}, {"title":"Контакты", "id":"#contact"}]
+        
     },
     "description": {
         "title": "Привет! Я Junior Frontend Developer",

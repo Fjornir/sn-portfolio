@@ -1,6 +1,6 @@
 {
     "header": {
-        "navigation":["About", "My works", "Contacts"]
+        "navigation":[{"title":"About", "id":"#top"}, {"title":"My works","id":"#works"}, {"title":"Contacts", "id":"#contact"}]
     },
     "description": {
         "title": "Hello! I'm Junior Frontend Developer",

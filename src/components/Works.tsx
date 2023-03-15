@@ -2,7 +2,7 @@ import Slider from "./Slider";
 
 function Works() {
   return (
-    <div className="page-item">
+    <div id="works" className="page-item">
       <Slider></Slider>
     </div>
   );

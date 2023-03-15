@@ -12,7 +12,7 @@ function Contacts({ props }: { props: { title: string } }) {
   }
 
   return (
-    <footer className="contacts">
+    <footer id="contact" className="contacts">
       <h3 className="contacts__title">{props.title}</h3>
       <div className="contacts-container">
         <address className="contacts-container-item">
