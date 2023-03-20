@@ -1,10 +1,12 @@
-function Language({onChangeLanguage}: {onChangeLanguage: Function}) {
+function Language({ onChangeLanguage }: { onChangeLanguage: Function }) {
+
+  
   return (
-
-
     <div className="language">
-      <button className="language__button" onClick={(event: React.MouseEvent<HTMLElement>) => onChangeLanguage("en")}>En</button>
-      <button className="language__button" onClick={(event: React.MouseEvent<HTMLElement>) => onChangeLanguage("ru")}>Ru</button>
+      <input type="checkbox" id="switch" onChange= {(event: React.ChangeEvent<HTMLInputElement>) =>
+          onChangeLanguage(event)
+        }/>
+      <label htmlFor="switch" >Change Language</label>
     </div>
   );
 }

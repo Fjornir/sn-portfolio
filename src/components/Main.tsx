@@ -9,30 +9,20 @@ import React, { Dispatch, useState } from "react";
 import english from "./languages/english.json"
 import russian from "./languages/russian.json"
 
-// interface ILangData {
-//   header: {
-//     navigation: string[]
-//   };
-// }
-
-
 function Main() {
   const [language, setLanguage] = useState(english) 
 
-  function onLanguageChange(lang: string) {
-    console.log(lang);
-    if(lang === "ru") {
+  function onLanguageChange(event: React.ChangeEvent<HTMLInputElement>) {
+    if(event.target.checked) {
       setLanguage(russian)
-    }
-    if(lang === "en") {
+    }else {
       setLanguage(english)
     }        
   } 
 
   return (
     <main className="page">
-      <Language onChangeLanguage={onLanguageChange}></Language>
-      <Header props={language.header}></Header>
+      <Header props={{header: language.header, onLanguageChange}}></Header>
       <Description props={language.description}></Description>
       <Works></Works>
       <Skills props={language.skills}></Skills>

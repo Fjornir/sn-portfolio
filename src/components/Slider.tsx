@@ -25,13 +25,13 @@ export default function Slider() {
   function disableButton() {
     const slidesCount = sliderCurrent.children.length
     const ml = getMarginLeft(sliderCurrent);
-    if (ml <= -320) {
+    if (ml <= -270) {
       setIsDisabledLeft(false);
     }
-    if (ml <= -((slidesCount - 3) * 320)) {
+    if (ml <= -((slidesCount - 3) * 270)) {
       setIsDisabledRight(true);
     }
-    if (ml > -((slidesCount - 3) * 320)) {
+    if (ml > -((slidesCount - 3) * 270)) {
       setIsDisabledRight(false);
     }
 
@@ -42,12 +42,12 @@ export default function Slider() {
 
   function rightScroll() {
     const ml = getMarginLeft(sliderCurrent);
-    setMarginLeft(ml - 320 + "px");
+    setMarginLeft(ml - 270 + "px");
   }
 
   function leftScroll() {
     const ml = getMarginLeft(sliderCurrent);
-    setMarginLeft(ml + 320 + "px");
+    setMarginLeft(ml + 270 + "px");
     sliderCurrent.style.marginLeft = marginLeft;
   }
 
