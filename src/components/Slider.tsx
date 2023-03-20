@@ -68,11 +68,11 @@ export default function Slider() {
       </button>
       <div className="slider-wrapper">
         <ul ref={slider} className="slider-gallery">
+          <SliderItem imgSrc={require("../images/Ex1.png")} link={"https://fjornir.github.io/buhone/"}></SliderItem>
+          <SliderItem imgSrc={require("../images/Ex2.png")} link={"https://fjornir.github.io/todolist/"}></SliderItem>
+          {/* <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
           <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
-          <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
-          <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
-          <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
-          <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
+          <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem> */}
         </ul>
       </div>
       <button
