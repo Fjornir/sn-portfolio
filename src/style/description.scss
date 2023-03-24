@@ -16,6 +16,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+
+    @media screen and (max-width: 576px ) {
+      width: 100px;
+      height: 100px;
+    }
   }
 
   &__photo::after {

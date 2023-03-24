@@ -4,9 +4,9 @@ function Description({props}: { props: { title: string, text: string }; }) {
       <figure className="description-container__photo">
       </figure>
       <section className="description-container-info">
-        <h1 className="description-container-info__title">
+        <h2 className="page-item__title description-container-info__title">
           {props.title}
-        </h1>
+        </h2>
         <article className="description-container-info__text">
           {props.text}
           {/* Меня зовут Никита, Я занимаюсь версткой лендингов, промо,

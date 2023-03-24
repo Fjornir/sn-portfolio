@@ -6,7 +6,11 @@
 
   &-wrapper {
     overflow: hidden;
-    width: 810px;
+    width: 540px;
+
+    @media screen and (max-width: 576px ) {
+      max-width: 270px;
+    }
   }
 
   &-gallery {
@@ -22,6 +26,8 @@
       flex-shrink: 0;
       margin: 0 10px;
     }
+
+    
   }
   &__btn {
     background-color: white;

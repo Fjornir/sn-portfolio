@@ -8,7 +8,7 @@ import { ReactComponent as TsImg } from "../images/skills/typescript.svg";
 function Skills({props}: { props: { title: string }; }) {
   return (
     <div className="page-item skills">
-      <h1 className="skills__title">{props.title}</h1>
+      <h2 className="page-item__title skills__title">{props.title}</h2>
       <ul className="skills-container">
         <li className="skills-container-img"><HtmlImg></HtmlImg></li>
         <li className="skills-container-img"><CssImg></CssImg></li>

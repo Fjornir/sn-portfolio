@@ -22,6 +22,15 @@
       height: 120px;
       flex-shrink: 0;
       margin: 50px;
+
+      @media screen and (max-width: 576px ) {
+        width: 60px;
+        height: 60px;
+        margin: 20px;
+      }
+    }
+    @media screen and (max-width: 576px ) {
+      max-width: 100%;
     }
   }
 }
