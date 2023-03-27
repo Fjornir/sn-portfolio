@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sn-portfolio/static/css/main.0a01283c.css",
-    "main.js": "/sn-portfolio/static/js/main.17aa6957.js",
+    "main.css": "/sn-portfolio/static/css/main.f23a8692.css",
+    "main.js": "/sn-portfolio/static/js/main.0229a8c3.js",
     "static/media/myPhoto.png": "/sn-portfolio/static/media/myPhoto.c190b24f426a472f9500.png",
     "static/media/Ex1.png": "/sn-portfolio/static/media/Ex1.21e4d2d8e49421122e05.png",
     "static/media/FlagUnitedKingdom.webp": "/sn-portfolio/static/media/FlagUnitedKingdom.fd3cc16b1d467f956537.webp",
@@ -15,11 +15,11 @@
     "static/media/css.svg": "/sn-portfolio/static/media/css.694110acd283b105594ee9e990a0d823.svg",
     "static/media/html5.svg": "/sn-portfolio/static/media/html5.4d2290c0529f4f744c7ee8d686573df8.svg",
     "static/media/FlagRussia.webp": "/sn-portfolio/static/media/FlagRussia.7ab2b77e948a73294043.webp",
-    "main.0a01283c.css.map": "/sn-portfolio/static/css/main.0a01283c.css.map",
-    "main.17aa6957.js.map": "/sn-portfolio/static/js/main.17aa6957.js.map"
+    "main.f23a8692.css.map": "/sn-portfolio/static/css/main.f23a8692.css.map",
+    "main.0229a8c3.js.map": "/sn-portfolio/static/js/main.0229a8c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a01283c.css",
-    "static/js/main.17aa6957.js"
+    "static/css/main.f23a8692.css",
+    "static/js/main.0229a8c3.js"
   ]
 }
