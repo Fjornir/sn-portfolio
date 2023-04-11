@@ -34,8 +34,8 @@ export default function Slider() {
 
   const resizeObserver = new ResizeObserver(
     (entries: ResizeObserverEntry[]) => {
-      entries[0].contentBoxSize[0].inlineSize >= 540
-        ? setViewSlidesCount(2)
+      entries[0].contentBoxSize[0].inlineSize >= 830
+        ? setViewSlidesCount(3)
         : setViewSlidesCount(1);
       setIsScreenWidthCalc(true);
     }
@@ -96,10 +96,14 @@ export default function Slider() {
           <ul ref={slider} className="slider-gallery">
             <SliderItem
               imgSrc={require("../images/Ex1.png")}
-              link={"https://fjornir.github.io/buhone/"}
+              link={"https://fjornir.github.io/nti-testcase/"}
             ></SliderItem>
             <SliderItem
               imgSrc={require("../images/Ex2.png")}
+              link={"https://fjornir.github.io/buhone/"}
+            ></SliderItem>
+            <SliderItem
+              imgSrc={require("../images/Ex3.png")}
               link={"https://fjornir.github.io/todolist/"}
             ></SliderItem>
             {/* <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
