@@ -34,7 +34,7 @@ export default function Slider() {
 
   const resizeObserver = new ResizeObserver(
     (entries: ResizeObserverEntry[]) => {
-      entries[0].contentBoxSize[0].inlineSize >= 830
+      entries[0].contentBoxSize[0].inlineSize >= 810
         ? setViewSlidesCount(3)
         : setViewSlidesCount(1);
       setIsScreenWidthCalc(true);
@@ -45,7 +45,7 @@ export default function Slider() {
     const slidesCount = sliderCurrent.children.length;
     const ml = getMarginLeft(sliderCurrent);
     console.log({ slidesCount, viewSlidesCount });
-    
+
     if (slidesCount <= viewSlidesCount) {
       setIsDisabledLeft(true);
       setIsDisabledRight(true);
@@ -99,6 +99,10 @@ export default function Slider() {
               link={"https://fjornir.github.io/nti-testcase/"}
             ></SliderItem>
             <SliderItem
+              imgSrc={require("../images/Ex4.png")}
+              link={"https://fjornir.github.io/sn-calculator/"}
+            ></SliderItem>
+            <SliderItem
               imgSrc={require("../images/Ex2.png")}
               link={"https://fjornir.github.io/buhone/"}
             ></SliderItem>
@@ -106,6 +110,7 @@ export default function Slider() {
               imgSrc={require("../images/Ex3.png")}
               link={"https://fjornir.github.io/todolist/"}
             ></SliderItem>
+
             {/* <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
           <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
           <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem> */}
