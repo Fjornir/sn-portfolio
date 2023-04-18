@@ -8,7 +8,7 @@
     overflow: hidden;
     width: 830px;
 
-    @media screen and (max-width: 576px ) {
+    @media screen and (max-width: 576px) {
       max-width: 270px;
     }
   }
@@ -25,9 +25,13 @@
       width: 250px;
       flex-shrink: 0;
       margin: 0 10px;
-    }
+      transition: 0.4s;
 
-    
+      &:hover {
+        margin-top: 10px;
+        transition: 0.4s;
+      }
+    }
   }
   &__btn {
     background-color: white;
@@ -36,7 +40,7 @@
     font-size: 60px;
     color: #cc6c5c;
     font-weight: bold;
-    background-color: rgba($color: #000000, $alpha: 0.0);
+    background-color: rgba($color: #000000, $alpha: 0);
 
     &:disabled {
       opacity: 0.6;

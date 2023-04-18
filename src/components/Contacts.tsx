@@ -13,7 +13,7 @@ function Contacts({ props }: { props: { title: string } }) {
 
   return (
     <footer id="contact" className="page-item contacts">
-      <h2 className="page-item__title contacts__title">{props.title}</h2>
+      <h2 className=" contacts__title">{props.title}</h2>
       <div className="contacts-container">
         <address className="contacts-container-item">
           <a href="mailto:fjornir@outlook.com">fjornir@outlook.com</a>

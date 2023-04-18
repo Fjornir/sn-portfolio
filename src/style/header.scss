@@ -6,7 +6,7 @@
   display: flex;
   position: relative;
   justify-content: center;
-  
+
   &-list {
     display: flex;
     list-style-type: none;
@@ -16,7 +16,6 @@
     margin-top: 10px;
 
     &-item {
-      
       font-weight: 600;
       font-size: 16px;
 
@@ -24,9 +23,11 @@
         text-decoration: none;
         color: $color1;
         padding: 30px 20px;
+        transition: 0.4s;
 
         &:hover {
           color: $secondary;
+          transition: 0.4s;
         }
       }
     }

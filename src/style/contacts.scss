@@ -2,12 +2,17 @@
 
 .contacts {
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   &__title {
     font-weight: 400;
     font-size: 34px;
     color: $color1;
     margin-bottom: 50px;
   }
+
   &-container {
     display: flex;
     justify-content: space-between;
@@ -15,16 +20,41 @@
     &-item {
       display: flex;
       align-items: center;
+      transition: 0.4s;
 
+      img {
+        &:hover {
+          color: $color1;
+          transition: 0.4s;
+        }
+      }
+      
       &__icon {
         margin-left: 20px;
         width: 40px;
         height: 40px;
+
+        &:hover {
+          color: $color1;
+          transition: 0.4s;
+        }
       }
+
+      &:first-child {
+        margin-right: 100px;
+      }
+
+      
     }
 
     a {
       color: white;
+      transition: 0.4s;
+
+      &:hover {
+        color: $color1;
+        transition: 0.4s;
+      }
     }
   }
 }
