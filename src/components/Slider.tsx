@@ -110,10 +110,6 @@ export default function Slider() {
               imgSrc={require("../images/Ex3.png")}
               link={"https://fjornir.github.io/todolist/"}
             ></SliderItem>
-
-            {/* <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
-          <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem>
-          <SliderItem imgSrc={require("../images/Ex1.png")}></SliderItem> */}
           </ul>
         )}
       </div>
