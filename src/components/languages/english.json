@@ -1,15 +1,22 @@
 {
-    "header": {
-        "navigation":[{"title":"About", "id":"#top"}, {"title":"My works","id":"#works"}, {"title":"Contacts", "id":"#contact"}]
-    },
-    "description": {
-        "title": "Hello! I'm Junior Frontend Developer",
-        "text": "My name is Nikita, I'm working on layouts for the websites with HTML5 and CSS. Logic I'm describe with Javascript (Typescript) on React framework. My goal is to create quality content, understandable and accessible products on website marketplace. Always ready to learn something new and interesting."
-    },
-    "skills": {
-        "title":"The tools i use"
-    },
-    "contacts": {
-        "title":"Contact me"
-    }
+  "header": {
+    "navigation": [
+      { "title": "About", "id": "#top" },
+      { "title": "My works", "id": "#works" },
+      { "title": "Contacts", "id": "#contact" }
+    ]
+  },
+  "description": {
+    "title": "Hello! I'm Junior Frontend Developer",
+    "text": "My name is Nikita, I'm working on layouts for the websites with HTML5 and SCSS. Logic I'm describe with Javascript (Typescript) on React framework. My goal is to create quality content, understandable and accessible products on website marketplace. Always ready to learn something new and interesting."
+  },
+  "works": {
+    "title": "Projects example"
+  },
+  "skills": {
+    "title": "The tools i use"
+  },
+  "contacts": {
+    "title": "Contact me"
+  }
 }

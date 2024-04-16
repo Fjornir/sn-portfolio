@@ -24,7 +24,7 @@ function Main() {
     <main className="page">
       <Header props={{header: language.header, onLanguageChange}}></Header>
       <Description props={language.description}></Description>
-      <Works></Works>
+      <Works props={language.works}></Works>
       <Skills props={language.skills}></Skills>
       <Contacts props={language.contacts}></Contacts>
     </main>

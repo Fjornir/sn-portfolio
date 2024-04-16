@@ -95,6 +95,10 @@ export default function Slider() {
         {isScreenWidthCalc && (
           <ul ref={slider} className="slider-gallery">
             <SliderItem
+              imgSrc={require("../images/Ex0.png")}
+              link={"https://fjornir.github.io/AniAme/"}
+            ></SliderItem>
+            <SliderItem
               imgSrc={require("../images/Ex1.png")}
               link={"https://fjornir.github.io/nti-testcase/"}
             ></SliderItem>
