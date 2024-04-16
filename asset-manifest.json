@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/sn-portfolio/static/css/main.a58278c4.css",
-    "main.js": "/sn-portfolio/static/js/main.89fab0ad.js",
+    "main.css": "/sn-portfolio/static/css/main.2f872300.css",
+    "main.js": "/sn-portfolio/static/js/main.d644c60b.js",
     "static/media/myPhoto.png": "/sn-portfolio/static/media/myPhoto.c190b24f426a472f9500.png",
     "static/media/Ex2.png": "/sn-portfolio/static/media/Ex2.21e4d2d8e49421122e05.png",
+    "static/media/Ex0.png": "/sn-portfolio/static/media/Ex0.075cb336783044a0073d.png",
     "static/media/Ex1.png": "/sn-portfolio/static/media/Ex1.a895af85cc6d589261d2.png",
     "static/media/FlagUnitedKingdom.webp": "/sn-portfolio/static/media/FlagUnitedKingdom.fd3cc16b1d467f956537.webp",
+    "static/media/Ex4.png": "/sn-portfolio/static/media/Ex4.3f9c92e768ffbfe8b43b.png",
     "static/media/react.svg": "/sn-portfolio/static/media/react.854aa3e11c4bc43c1d78d8348f98e409.svg",
     "static/media/typescript.svg": "/sn-portfolio/static/media/typescript.39c308194fedf08d274b0c6497d37538.svg",
     "static/media/docker.svg": "/sn-portfolio/static/media/docker.f32b37e9204ec162ce0d74e74a164e3e.svg",
@@ -16,11 +18,11 @@
     "static/media/css.svg": "/sn-portfolio/static/media/css.694110acd283b105594ee9e990a0d823.svg",
     "static/media/html5.svg": "/sn-portfolio/static/media/html5.4d2290c0529f4f744c7ee8d686573df8.svg",
     "static/media/FlagRussia.webp": "/sn-portfolio/static/media/FlagRussia.7ab2b77e948a73294043.webp",
-    "main.a58278c4.css.map": "/sn-portfolio/static/css/main.a58278c4.css.map",
-    "main.89fab0ad.js.map": "/sn-portfolio/static/js/main.89fab0ad.js.map"
+    "main.2f872300.css.map": "/sn-portfolio/static/css/main.2f872300.css.map",
+    "main.d644c60b.js.map": "/sn-portfolio/static/js/main.d644c60b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a58278c4.css",
-    "static/js/main.89fab0ad.js"
+    "static/css/main.2f872300.css",
+    "static/js/main.d644c60b.js"
   ]
 }
